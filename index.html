@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Sales Report</title>
+</head>
+<body>
+    <div class="navbar">
+        <div>Menu</div>
+        <div id="username">Telmo Bezerra</div>
+        <div>Sales Report</div>
+    </div>
+    <div class="main-content">
+        <div class="filter-section">
+            <div class="fields"></div>
+                <p>Category</p>
+                <select id="category-select">
+                    <!-- Options will be added dynamically using JavaScript -->
+                </select>
+                <p>Product</p>
+                <select id="product-select">
+                    <!-- Options will be added dynamically using JavaScript -->
+                </select>
+                <p>Brand</p>
+                <select id="brand-select">
+                    <!-- Options will be added dynamically using JavaScript -->
+                </select>
+        </div>
+        <div id="chart-container">
+            <canvas id="sales-chart"></canvas>
+        </div>
+    </div>
+</body>
+</html>

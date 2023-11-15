@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-content {
+    margin: 20px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#chart-container {
+    height: 400px;
+}
+
+p {
+    margin-left: 15px;
+}
+
+select{
+    margin-left: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
